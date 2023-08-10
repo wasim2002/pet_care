@@ -1,0 +1,465 @@
+/* navbar */
+
+#A {
+    background-color: #daac00;
+    padding: 0 8%;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px !important;
+    padding-left: 20px !important;
+}
+
+#B {
+    background-color: #fcc302;
+    /* color: rgb(255, 255, 255) !important; */
+    font-weight: 600;
+    border: none;
+    box-shadow: 6px 4px 10px 2px #817c7c;
+}
+
+#B::placeholder {
+    color: white;
+}
+
+#C {
+    background-color: #00bec9;
+}
+
+@media only screen and (max-width:991px) {
+    .d-flex {
+        margin-bottom: 15px;
+    }
+}
+
+/* font-page */
+
+#D {
+    background-color: #fcc302;
+    display: flex;
+    align-items: center;
+    height: 89vh;
+}
+
+#D-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#D-text-h1 {
+    color: white;
+    font-size: 70px;
+    /* margin-top: 100px; */
+}
+
+#D-text-p {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+#D-text-b1 {
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#D-text-b1:hover {
+    background-color: black;
+    border: 2px solid black;
+}
+
+#D-text-b2 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+
+#D-img img {
+    filter: drop-shadow(3px 8px 25px black);
+}
+
+@media only screen and (max-width:1300px) {
+    #D-text-h1 {
+        font-size: 66px;
+    }
+
+    #D-text-p {
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width:1280px) {
+    #D-text-h1 {
+        font-size: 62px;
+    }
+
+    #D-text-p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:1260px) {
+    #D-text-h1 {
+        font-size: 58px;
+    }
+
+}
+
+@media only screen and (max-width:1065px) {
+    #D-text-h1 {
+        font-size: 54px;
+    }
+
+    #D-text-p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:994px) {
+    #D-text-h1 {
+        font-size: 51px;
+    }
+
+}
+
+@media only screen and (max-width:945px) {
+    #D-text-h1 {
+        font-size: 48px;
+    }
+
+
+}
+
+@media only screen and (max-width:889px) {
+    #D-text-h1 {
+        font-size: 45px;
+    }
+
+    #D-text-p {
+        font-size: 13px;
+        /* margin-top: 20px; */
+    }
+
+}
+
+@media only screen and (max-width:837px) {
+    #D-text-h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #D-text-h1 {
+        font-size: 55px;
+    }
+
+    #D {
+        flex: none;
+        height: 70vh;
+    }
+
+    /* .buttons{
+        margin-bottom: 10px;
+    } */
+    #D-text-p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    #D-text-h1 {
+        font-size: 52px;
+    }
+
+    #D-text-p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:523px) {
+    #D-text-h1 {
+        font-size: 48px;
+    }
+
+    #D-text-p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:485px) {
+    #D-text-h1 {
+        font-size: 45px;
+    }
+
+    #D-text-p {
+        font-size: 13px;
+    }
+}
+
+/* services */
+
+.e {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.e-img-p {
+    height: 45%;
+    width: 24%;
+    background-color: orange;
+    position: relative;
+    top: -38%;
+    z-index: -1;
+    left: -3%;
+}
+
+.e-text-h1 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.e-text-p {
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.e-text-b {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.e-img {
+    padding: 0 2% !important;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .e-img-p {
+        height: 43%;
+        width: 29%;
+    }
+
+    .e-text-p {
+        font-size: 20px;
+    }
+
+    .e-img {
+        padding-top: 4% !important;
+    }
+}
+
+@media only screen and (max-width:820px) {
+    .e-img-p {
+        top: -21%;
+        left: -5%;
+        height: 25%;
+        width: 30%;
+    }
+
+    .e-img {
+        padding: 10% 0% !important;
+
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .e-img {
+        padding: 5% !important;
+    }
+
+    .e-img-p {
+        top: -38%;
+        left: -4%;
+        height: 45%;
+        width: 30%;
+    }
+}
+
+/* counter */
+
+.f {
+    background: url(../img/dog-vaccine\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 !important;
+}
+
+.f-i {
+    font-size: 70px;
+}
+
+.f-1,
+.f-2,
+.f-3 {
+    margin: 5% 0 !important;
+}
+
+@media only screen and (max-width:767px) {
+    .f-i {
+        font-size: 40px;
+    }
+
+    .f {
+        padding: 0px 0 !important;
+    }
+
+    .f-1,
+    .f-2,
+    .f-3 {
+        margin: 2% 0 !important;
+    }
+
+}
+
+
+/* blog  */
+
+.g {
+    padding: 5% 0 !important;
+}
+
+.g1 {
+    padding-bottom: 2% !important;
+}
+
+.g1-h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.g1-p {
+    font-size: 25px;
+
+}
+
+.g2-all {
+    border: 2px solid rgb(185 185 185 / 31%);
+    border-top: 0;
+    padding: 7%;
+}
+
+.g2-all:hover {
+    box-shadow: -2px 1px 28px grey;
+}
+
+.g2-all h3 {
+    font-weight: 700;
+    font-size: 27px;
+    color: #241f1fc4;
+}
+
+.g2-1-p-1,
+.g2-2-p-1,
+.g2-3-p-1 {
+    color: #00f1ff;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin: 3% 0 !important;
+}
+
+.g2-1-p-2,
+.g2-2-p-2,
+.g2-3-p-2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #797676;
+    line-height: 18px;
+}
+
+.g2-all a {
+    text-decoration: none;
+    color: #00f1ff;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    /* margin: 0 0 !important; */
+}
+
+.g2-1-p-3,
+.g2-2-p-3,
+.g2-3-p-3 {
+    margin: 0 !important;
+}
+
+@media only screen and (max-width:767px) {
+
+    .g2-1,
+    .g2-2,
+    .g2-3 {
+        /* margin-top: 10px; */
+        padding-top: 5%;
+    }
+}
+
+/* footer  */
+
+.h {
+    background-color: #343434;
+    padding: 5% 0 !important;
+}
+
+.h a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+
+}
+
+.h a:hover {
+    color: #00f1ff;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.i input {
+    width: 60%;
+    font-size: 20px;
+    padding: 20px 0px 5px 0px;
+    background-color: #e1be40;
+}
+
+.i button {
+    line-height: initial;
+    background-color: #00bec9;
+    font-family: initial;
+    width: 18%;
+    position: relative;
+    right: 7px;
+    border: none;
+}
+
+.bi-telegram {
+    font-size: 3rem;
+}
+
+.ic {
+    font-size: 2rem;
+    margin: 9px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:768px) {
+    .i button {
+        width: 25%;
+    }
+    .y2{
+        padding: 20px;
+    }
+}
